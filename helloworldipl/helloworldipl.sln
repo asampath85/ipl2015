@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "helloworldipl", "helloworldipl\helloworldipl.csproj", "{FAB9080E-2847-4AB7-98C0-A0EE089D6626}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{37A65A13-17E2-4EEA-9024-BE7F847887FB}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{A63A43E3-9C6D-4ECD-989B-F41E768F9385}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\helloworldipl-WAWS-dev.json = PublishScripts\Configurations\helloworldipl-WAWS-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB9080E-2847-4AB7-98C0-A0EE089D6626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB9080E-2847-4AB7-98C0-A0EE089D6626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB9080E-2847-4AB7-98C0-A0EE089D6626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAB9080E-2847-4AB7-98C0-A0EE089D6626}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A63A43E3-9C6D-4ECD-989B-F41E768F9385} = {37A65A13-17E2-4EEA-9024-BE7F847887FB}
+	EndGlobalSection
+EndGlobal
